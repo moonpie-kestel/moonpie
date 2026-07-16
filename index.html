@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonPie Kids Workshop | Alanya Çocuk Atölyesi</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="MoonPie Kids Workshop Alanya Kestel'de uzman kadromuzla çocuklarınız için sanat, el becerileri, yaratıcı aktiviteler ve eğlenceli atölyeler sunar. Hayal gücünün ışıldadığı yer!">
+    <meta name="keywords" content="Alanya çocuk atölyesi, Kestel çocuk aktivite, çocuk oyun alanı Alanya, arts and crafts kids Alanya, MoonPie Alanya, çocuk atölyesi, uzman çocuk atölyesi">
+    <meta name="author" content="MoonPie Kids Workshop">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MoonPie Kids Workshop | Alanya Çocuk Atölyesi">
+    <meta property="og:description" content="Kestel, Alanya'da uzman eğitmenler eşliğinde çocuklar için sanat ve yaratıcı atölyeler. Oyun oynayarak öğrenme ve keşfetme alanı.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&family=Outfit:wght@300..900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Stars & Clouds Background Elements -->
+    <div class="space-bg">
+        <div class="star star-1">★</div>
+        <div class="star star-2">✦</div>
+        <div class="star star-3">★</div>
+        <div class="star star-4">✦</div>
+        <div class="star star-5">★</div>
+        <div class="cloud cloud-1"><i class="fa-solid fa-cloud"></i></div>
+        <div class="cloud cloud-2"><i class="fa-solid fa-cloud"></i></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo-area">
+                <span class="logo-moon">🌙</span>
+                <div class="logo-text">
+                    <span class="logo-title">MoonPie</span>
+                    <span class="logo-sub">KIDS WORKSHOP</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Ana Sayfa</a>
+                <a href="#about" class="nav-link">Hakkımızda</a>
+                <a href="#workshops" class="nav-link">Atölyelerimiz</a>
+                <a href="#contact" class="nav-link">İletişim</a>
+                <a href="https://wa.me/905337669662" target="_blank" class="btn btn-primary btn-nav-contact">
+                    <i class="fa-brands fa-whatsapp"></i> Rezervasyon
+                </a>
+            </nav>
+            
+            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Menüyü Aç">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-tagline">
+                    <span class="capsule">🌙 Hayal Gücünün Işıldadığı Yer!</span>
+                </div>
+                <h1 class="hero-title">
+                    MoonPie <span class="highlight">Kids Workshop</span>
+                </h1>
+                <p class="hero-description">
+                    Çocuklarımızın el becerilerini geliştirdiği, eğlenirken öğrendiği, hayallerini sanata dönüştürdüğü Kestel Alanya'daki en yaratıcı çocuk atölyesi!
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/905337669662?text=Merhaba,%20çocuk%20atölyeleriniz%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="btn btn-large btn-primary">
+                        <i class="fa-brands fa-whatsapp"></i> Hemen İletişime Geç
+                    </a>
+                    <a href="#workshops" class="btn btn-large btn-secondary">
+                        Atölyeleri Keşfet <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-illustration">
+                <div class="illustrator-wrapper">
+                    <!-- Custom SVG representing the logo image: Moon, Rocket, Astronaut -->
+                    <svg viewBox="0 0 500 500" class="hero-svg">
+                        <!-- Space path background -->
+                        <circle cx="250" cy="250" r="220" fill="rgba(132, 183, 224, 0.1)" stroke="rgba(16, 63, 107, 0.15)" stroke-width="2" stroke-dasharray="10 5" />
+                        
+                        <!-- Moon -->
+                        <path d="M 230 110 A 130 130 0 1 1 120 220 A 100 100 0 1 0 230 110" fill="#F8B036" filter="drop-shadow(0px 8px 16px rgba(248, 176, 54, 0.3))"/>
+                        <circle cx="160" cy="210" r="8" fill="#e0921b" opacity="0.6"/>
+                        <circle cx="190" cy="260" r="12" fill="#e0921b" opacity="0.6"/>
+                        <circle cx="130" cy="280" r="10" fill="#e0921b" opacity="0.6"/>
+                        
+                        <!-- Sleeping Eyes on Moon -->
+                        <path d="M 145 190 Q 155 198 165 190" stroke="#103F6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M 140 188 L 136 182" stroke="#103F6B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M 155 194 L 155 186" stroke="#103F6B" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M 170 188 L 174 182" stroke="#103F6B" stroke-width="3" stroke-linecap="round"/>
+                        
+                        <!-- Smiling mouth on Moon -->
+                        <path d="M 160 215 Q 170 225 180 215" stroke="#103F6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Little Rocket -->
+                        <g class="animated-rocket">
+                            <path d="M 380 180 Q 420 140 440 100 Q 400 120 360 160 Z" fill="#FFFFFF" stroke="#103F6B" stroke-width="4" />
+                            <path d="M 360 160 L 340 170 L 350 190 Z" fill="#F8B036" stroke="#103F6B" stroke-width="3" />
+                            <path d="M 440 100 Q 405 105 390 120 Z" fill="#F8B036" />
+                            <circle cx="395" cy="145" r="8" fill="#84B7E0" stroke="#103F6B" stroke-width="3"/>
+                            <!-- Flame -->
+                            <path d="M 345 180 Q 310 195 330 215 Q 355 200 345 180" fill="#FF5722" />
+                        </g>
+                        
+                        <!-- Astronaut on small planet -->
+                        <g class="animated-astronaut">
+                            <!-- Small Moon/Planet -->
+                            <circle cx="350" cy="350" r="70" fill="#B0BEC5" stroke="#103F6B" stroke-width="4"/>
+                            <circle cx="310" cy="340" r="10" fill="#90A4AE"/>
+                            <circle cx="360" cy="380" r="15" fill="#90A4AE"/>
+                            <circle cx="380" cy="320" r="8" fill="#90A4AE"/>
+                            
+                            <!-- Sitting Astronaut -->
+                            <!-- Body -->
+                            <rect x="325" y="245" width="40" height="45" rx="15" fill="#FFFFFF" stroke="#103F6B" stroke-width="4"/>
+                            <!-- Helmet -->
+                            <circle cx="345" cy="215" r="28" fill="#FFFFFF" stroke="#103F6B" stroke-width="4"/>
+                            <rect x="325" y="200" width="40" height="30" rx="10" fill="#103F6B"/>
+                            <rect x="330" y="205" width="30" height="20" rx="8" fill="#84B7E0" opacity="0.8"/>
+                            <!-- Legs & Arms -->
+                            <rect x="315" y="280" width="15" height="25" rx="7" fill="#FFFFFF" stroke="#103F6B" stroke-width="4"/>
+                            <rect x="360" y="280" width="15" height="25" rx="7" fill="#FFFFFF" stroke="#103F6B" stroke-width="4"/>
+                            <!-- Waving hand -->
+                            <path d="M 315 250 Q 290 235 295 220" stroke="#103F6B" stroke-width="4" stroke-linecap="round" fill="none" class="waving-arm"/>
+                        </g>
+                        
+                        <!-- Sparkles and Stars -->
+                        <g fill="#F8B036">
+                            <circle cx="80" cy="120" r="6" />
+                            <polygon points="280,60 285,70 295,75 285,80 280,90 275,80 265,75 275,70" />
+                            <polygon points="90,380 93,385 98,387 93,389 90,394 87,389 82,387 87,385" />
+                            <circle cx="450" cy="270" r="4" fill="#84B7E0" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rich About/Philosophy Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-intro-grid">
+                <div class="about-intro-content">
+                    <span class="sub-title">Biz Kimiz?</span>
+                    <h2 class="section-title">Uzman Kadromuz ve Tecrübemizle Parlıyoruz!</h2>
+                    <p class="about-highlight-text">
+                        MoonPie Kids Workshop, çocuk gelişimi ve sanat eğitiminde yılların getirdiği tecrübeyle Alanya Kestel'de kapılarını açtı. Çocuklarımızın sadece eğlenmesini değil, pedagojik açıdan doğru yönlendirmelerle kendilerini keşfetmelerini sağlıyoruz.
+                    </p>
+                    <div class="rich-features-list">
+                        <div class="rich-feature-item">
+                            <div class="rf-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="rf-text">
+                                <h4>Pedagojik ve Uzman Eğitmen Kadrosu</h4>
+                                <p>Tüm atölyelerimiz, çocuk psikolojisi ve çocuk gelişimi alanında eğitim almış uzman eğitmenlerimiz rehberliğinde gerçekleştirilir.</p>
+                            </div>
+                        </div>
+                        <div class="rich-feature-item">
+                            <div class="rf-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="rf-text">
+                                <h4>Güvenli ve Doğal Malzemeler</h4>
+                                <p>Çocuklarımızın sağlığı bizim için ilk sıradadır. Kullandığımız tüm boya, kil ve ahşap materyaller EN71 çocuk sağlığı standartlarına uygundur.</p>
+                            </div>
+                        </div>
+                        <div class="rich-feature-item">
+                            <div class="rf-icon"><i class="fa-solid fa-hourglass-half"></i></div>
+                            <div class="rf-text">
+                                <h4>Yılların Deneyimi ve İlgi</h4>
+                                <p>Çocukların motor becerilerini ve bilişsel kapasitelerini artıran bilimsel olarak kanıtlanmış oyun ve sanat metotları uyguluyoruz.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats-panel">
+                    <div class="stat-box">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Güvenli & Eğlenceli</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Farklı Atölye Tipi</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">Uzman</span>
+                        <span class="stat-label">Pedagojik Yaklaşım</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">Özgür</span>
+                        <span class="stat-label">Hayal Dünyası</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="values-grid">
+                <!-- Value 1 -->
+                <div class="value-card color-blue">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>Sanat & El Becerileri</h3>
+                    <p>Çocukların boyama, kesme, yapıştırma ve farklı materyalleri bir araya getirerek motor becerilerini artırdığı atölyeler.</p>
+                    <span class="value-label">ART & CRAFTS</span>
+                </div>
+                
+                <!-- Value 2 -->
+                <div class="value-card color-yellow">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3>Yaratıcı Aktiviteler</h3>
+                    <p>Sınır tanımayan hayal güçlerini özgürce kullanarak kendi oyuncaklarını tasarladıkları yaratıcılık saatleri.</p>
+                    <span class="value-label">CREATIVE ACTIVITIES</span>
+                </div>
+                
+                <!-- Value 3 -->
+                <div class="value-card color-green">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Oyna & Öğren</h3>
+                    <p>Eğlenceli oyunlar ve grup aktiviteleri ile takım çalışmasını öğrenirken sosyal zekalarını geliştiren etkinlikler.</p>
+                    <span class="value-label">PLAY & LEARN</span>
+                </div>
+                
+                <!-- Value 4 -->
+                <div class="value-card color-purple">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-face-smile-beam"></i>
+                    </div>
+                    <h3>Keşfet & Hayal Et</h3>
+                    <p>Çocuklarımızın mutlu, huzurlu ve kendilerini güvende hissettikleri bir ortamda yeni yeteneklerini keşfetme yolculuğu.</p>
+                    <span class="value-label">EXPLORE IMAGINE HAPPY</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops" class="workshops-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="sub-title">Neler Yapıyoruz?</span>
+                <h2 class="section-title">Eğlenceli Çocuk Atölyelerimiz</h2>
+                <p class="section-desc">Grup veya bireysel olarak katılabileceğiniz, çocuklar için özel eğitmen rehberliğindeki atölyelerimiz.</p>
+            </div>
+            
+            <div class="workshops-grid">
+                <!-- Card 1 -->
+                <div class="workshop-card">
+                    <div class="workshop-image bg-grad-1">
+                        <div class="inner-icon">
+                            <i class="fa-solid fa-shapes"></i>
+                        </div>
+                        <span class="badge">Her Yaş Grubu</span>
+                    </div>
+                    <div class="workshop-info">
+                        <h3>Seramik & Kil Şekillendirme</h3>
+                        <p>Kendi tabaklarını, bardaklarını veya hayal ettikleri figürleri çamurdan şekillendirip boyayarak yaratıcılığın tadını çıkarıyorlar.</p>
+                        <div class="workshop-footer">
+                            <span class="duration"><i class="fa-regular fa-clock"></i> 90 Dk</span>
+                            <a href="https://wa.me/905337669662?text=Seramik%20atölyesi%20rezervasyonu%20yaptırmak%20istiyorum" target="_blank" class="btn btn-sm btn-outline">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="workshop-card">
+                    <div class="workshop-image bg-grad-2">
+                        <div class="inner-icon">
+                            <i class="fa-solid fa-cubes"></i>
+                        </div>
+                        <span class="badge">4-12 Yaş</span>
+                    </div>
+                    <div class="workshop-info">
+                        <h3>Ahşap Oyuncak Boyama</h3>
+                        <p>Doğal ahşap malzemelerden üretilmiş oyuncakları sağlığa zararsız su bazlı boyalarla diledikleri gibi renklendiriyorlar.</p>
+                        <div class="workshop-footer">
+                            <span class="duration"><i class="fa-regular fa-clock"></i> 60 Dk</span>
+                            <a href="https://wa.me/905337669662?text=Ahşap%20oyuncak%20atölyesi%20rezervasyonu%20yaptırmak%20istiyorum" target="_blank" class="btn btn-sm btn-outline">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="workshop-card">
+                    <div class="workshop-image bg-grad-3">
+                        <div class="inner-icon">
+                            <i class="fa-solid fa-paintbrush"></i>
+                        </div>
+                        <span class="badge">3-10 Yaş</span>
+                    </div>
+                    <div class="workshop-info">
+                        <h3>Tuval Üzerine Akrilik Boyama</h3>
+                        <p>Mini tuvaller üzerine fırça ve süngerler yardımıyla kendi şaheserlerini üretiyor, renklerin dansını öğreniyorlar.</p>
+                        <div class="workshop-footer">
+                            <span class="duration"><i class="fa-regular fa-clock"></i> 75 Dk</span>
+                            <a href="https://wa.me/905337669662?text=Tuval%20boyama%20atölyesi%20rezervasyonu%20yaptırmak%20istiyorum" target="_blank" class="btn btn-sm btn-outline">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="workshop-card">
+                    <div class="workshop-image bg-grad-4">
+                        <div class="inner-icon">
+                            <i class="fa-solid fa-hands-bubbles"></i>
+                        </div>
+                        <span class="badge">2-5 Yaş</span>
+                    </div>
+                    <div class="workshop-info">
+                        <h3>Duyusal Oyun Grubu (Sensory)</h3>
+                        <p>Eğlenceli dokular, renkli pirinçler, kinetik kumlar ve su oyunları ile miniklerin motor gelişimini destekleyen atölye.</p>
+                        <div class="workshop-footer">
+                            <span class="duration"><i class="fa-regular fa-clock"></i> 50 Dk</span>
+                            <a href="https://wa.me/905337669662?text=Duyusal%20oyun%20grubu%20hakkında%20bilgi%20almak%20istiyorum" target="_blank" class="btn btn-sm btn-outline">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="banner-box text-center">
+                <h3>Özel Günler & Doğum Günü Rezervasyonları</h3>
+                <p>Çocuğunuzun en mutlu gününü sanat dolu, eğlenceli ve unutulmaz bir atölye etkinliği ile kutlamak için bizimle iletişime geçin!</p>
+                <a href="https://wa.me/905337669662?text=Doğum%20günü%20organizasyonu%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="btn btn-primary">
+                    <i class="fa-solid fa-cake-candles"></i> Doğum Günü Bilgi Al
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-panel">
+                    <span class="sub-title">İletişim & Rezervasyon</span>
+                    <h2 class="panel-title">Bizimle İletişime Geçin 🌙</h2>
+                    <p class="panel-desc">Atölyelerimize katılmak, güncel saatler hakkında bilgi almak veya grup rezervasyonu yaptırmak için bize ulaşabilirsiniz.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="item-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div class="item-text">
+                                <strong>Adresimiz:</strong>
+                                <p>Kestel, Alanya / Antalya</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="item-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="item-text">
+                                <strong>Telefon:</strong>
+                                <p><a href="tel:05337669662">0533 766 96 62</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="item-icon"><i class="fa-brands fa-whatsapp-square"></i></div>
+                            <div class="item-text">
+                                <strong>WhatsApp Rezervasyon:</strong>
+                                <p><a href="https://wa.me/905337669662" target="_blank">0533 766 96 62</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="item-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                            <div class="item-text">
+                                <strong>Çalışma Saatleri:</strong>
+                                <p>Hafta İçi & Hafta Sonu: 10:00 - 19:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links-area">
+                        <a href="https://wa.me/905337669662" target="_blank" class="social-icon wa" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/moonpie.kestel" target="_blank" class="social-icon ig" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com/moonpie.kestel" target="_blank" class="social-icon fb" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="map-panel">
+                    <div class="map-container">
+                        <div class="map-overlay-info">
+                            <i class="fa-solid fa-map-pin"></i>
+                            <h3>MoonPie Kids Workshop</h3>
+                            <p>Kestel, Alanya</p>
+                            <a href="https://maps.google.com/?q=MoonPie+Kids+Workshop+Kestel+Alanya" target="_blank" class="btn btn-primary">
+                                <i class="fa-solid fa-route"></i> Yol Tarifi Al (Google Maps)
+                            </a>
+                        </div>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12836.877864835821!2d32.06282869502283!3d36.524419266392095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dca2f2520cb22f%3A0xe54cf13c9e6bb07b!2sKestel%2C%20Alanya%2FAntalya!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container text-center">
+            <p class="footer-logo">🌙 MoonPie Kids Workshop</p>
+            <p class="footer-tagline">Where imagination shines!</p>
+            <p class="footer-copy">&copy; 2026 MoonPie Kids Workshop. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/905337669662?text=Merhaba,%20atölyeleriniz%20hakkında%20bilgi%20almak%20istiyorum." class="floating-wa" target="_blank" aria-label="WhatsApp ile Mesaj Gönder">
+        <span class="tooltip-text">Rezervasyon & Bilgi</span>
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Tiny JavaScript for Mobile Menu & Active State Scroll -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menuToggle');
+            const navMenu = document.getElementById('navMenu');
+            
+            // Toggle menu open/close
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                const isOpen = navMenu.classList.contains('active');
+                menuToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+            });
+
+            // Close menu on click of nav links
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                    menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+                });
+            });
+
+            // Simple Scrollspy to activate menu items
+            window.addEventListener('scroll', () => {
+                let current = '';
+                const sections = document.querySelectorAll('section');
+                const scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 120;
+                    if (scrollPos >= sectionTop) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
